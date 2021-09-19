@@ -4,24 +4,9 @@ html, body {
 }
 
 body {
-	/* background-color: #050510; */
-	/* font-family: "Titillium Web", sans-serif; */
-	/* font-weight: normal; */
-	/* overflow-x: hidden; */
-	/* -webkit-font-smoothing: antialiased !important; */
-
-	background-image: url('../images/ZeldaBotW_thanks_A_1920_1080.jpg');
-	/* color: #ffffff; */
-    /* -webkit-background-size: 100%; */
-    /* -moz-background-size: 100%; */
-    /* -o-background-size: 100%; */
-    /* background-size: 100%; */
-
-    /* -webkit-background-size: cover; */
-    /* -moz-background-size: cover; */
-    /* -o-background-size: cover; */
-    /* background-size: cover; */
-    /* width: 100%; */
+	background-image: url('../images/BotW_Link_Rider_Artwork-min.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -44,39 +29,28 @@ body {
 }
 
 .slide {
+	background-color: rgba(85, 85, 85, 0.6);
+	backdrop-filter: blur(2px);
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding-bottom: 30px;
-	padding-top: 30px;
 	text-align: center;
+	border-radius:1rem;
+	margin: auto;
 }
 
 .avatar {
-	width: 110px;
-	/* margin: 0 auto; */
-	margin-bottom: -55px;
+	width: 6rem;
+	margin-bottom: 2rem;
+	margin-top: -3rem;
 	text-align: center;
+	border: medium red;
 	border-radius: 100%;
-	box-shadow: 0 0 3px rgba(170, 170, 170, 0.5);
+	border-width: 1rem;
 }
 
 #icons {
-	background-color: rgba(85, 85, 85, 0.8);
-	/* background: inherit; */
-	/* -webkit-filter: blur(5px); */
-	/* -moz-filter: blur(5px); */
-	/* -ms-filter: blur(5px); */
-	/* -o-filter: blur(5px); */
-	/* filter: blur(5px); */
-	/* opacity: 0.8; */
-	border-radius:10px;
-	/* text-align: center; */
 	margin:0 auto;
 }
-
-.content-row {
-	padding-top: 70px;
-}	
 
 .content-cell ,.content-cell a{
 	color: #ffffff;
@@ -85,16 +59,17 @@ body {
 }
 
 .content-cell i {
-	font-size: 40px;
+	font-size: 3rem;
 }
 
 .content-cell h2 {
-	font-size: 16px;
-	padding-bottom: 40px;
+	font-size: 1rem;
+	font-weight: 500;
+	padding-bottom: 3rem;
 }
 
 .content-cell:hover {
 	color: #ffffff;
 	opacity:1;
-	text-shadow: 0 0 8px #ccc;
+	text-shadow: 0 0 0.5rem #ccc;
 }
